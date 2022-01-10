@@ -714,6 +714,25 @@ footer {
   }
 }
 
+.project__description--links {
+  float: left;
+  margin: 13px;
+  
+  
+
+}
+.project__description--links i{
+  margin-left: 35px;
+}
+.project__description--links p{
+  padding: 5px;
+  font-weight: 600;
+
+  text-align: center;
+  color:#4bb543;
+  max-width: 660px;
+}
+
 /* Small phones */
 @media (max-width: 480px) {
   .title {
@@ -739,5 +758,20 @@ footer {
   }
   .modal__half {
     padding: 40px;
+  }
+  .project__description--links {
+    float: left;
+    display: flex;
+    text-align: center;
+    display: inline;
+
+  }
+  
+  .project__description--links p{
+    padding: 5px;
+    font-weight: 600;
+    color:#4bb543;
+    max-width: 660px;
+    margin-left: 30px;
   }
 }
